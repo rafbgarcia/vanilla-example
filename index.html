@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quickr vanilla JS example</title>
+</head>
+<body>
+  <div style="display: flex; gap: 10px; height: 400px;">
+    <img data-src="https://assets.quickr.dev/example.jpeg" width="300" />
+    <img data-src="https://assets.quickr.dev/example.jpeg" width="300" data-transformations="sharpen=2,brightness=1,contrast=1" />
+  </div>
+
+  <div style="display: flex; gap: 10px; margin-top: 10px; align-items: start;">
+    <div style="width: 400px;">
+      <img data-src="https://assets.quickr.dev/example2.jpeg" width="100%" />
+    </div>
+
+    <img data-src="https://assets.quickr.dev/example2.jpeg" width="400" data-transformations="blur=30,rotate=180" />
+  </div>
+
+  <script src="./quickr.js" defer></script>
+</body>
+</html>
